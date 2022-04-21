@@ -1,0 +1,23 @@
+import 'package:equatable/equatable.dart';
+import 'package:firebase_auth/firebase_auth.dart';
+
+abstract class AuthenticationState extends Equatable {
+  const AuthenticationState();
+  @override
+  // TODO: implement props
+  List<Object> get props => [];
+}
+class AuthenticationStateInitial extends AuthenticationState{}
+class AuthentucationStateSuccess extends AuthenticationState{
+  final FirebaseUser firebaseUser;
+  const AuthentucationStateSuccess({this.firebaseUser});
+  @override
+  // TODO: implement props
+  List<Object> get props => [firebaseUser];
+  @override
+  String toString() {
+    // TODO: implement toString
+    return 'AuthenticationStateSuccess, email: ${firebaseUser.email}';
+  }
+}
+class AuthenticationStateFail extends AuthenticationState{}

@@ -5,18 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d5f1c847-1a18-4352-9dec-292cf4fa4447" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/lib/repositories/user_repository.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/states/authentication_state.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/states/login_state.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/states/register_state.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/validators/validators.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/events/authentication_event.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/events/login_event.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/events/register_event.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/android/app/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/android/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/android/settings.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/main.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/widget_test.dart" beforeDir="false" afterPath="$PROJECT_DIR$/test/widget_test.dart" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

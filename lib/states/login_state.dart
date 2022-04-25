@@ -66,13 +66,16 @@ class LoginState{
         isValidPassword: isValidPassword ?? this.isValidPassword
     );
   }
-  LoginState CloneAndUpdate({
+  LoginState cloneAndUpdate({
     bool isValidEmail,
     bool isValidPassword,
   }){
     return CloneWith(
       isValidEmail: isValidEmail,
-      isValidPassword: isValidPassword
+      isValidPassword: isValidPassword,
+      isFailure: false,
+      isSubmitting: false,
+      isSuccess: false,
     );
   }
 }

@@ -66,7 +66,7 @@ class RegisterState{
         isValidPassword: isValidPassword ?? this.isValidPassword
     );
   }
-  RegisterState CloneAndUpdate({
+  RegisterState cloneAndUpdate({
     bool isValidEmail,
     bool isValidPassword,
   }){

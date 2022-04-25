@@ -32,7 +32,7 @@ class LoginEventPasswordChanged extends LoginEvent{
   }
 }
 //press sign in with google
-class LoginEvenWithGoogleChanged extends LoginEvent{}
+class LoginEventWithGooglePressed extends LoginEvent{}
 class LoginEventWithEmailAndPasswordPressed extends LoginEvent{
   final String email;
   final String password;

@@ -8,9 +8,9 @@ abstract class AuthenticationState extends Equatable {
   List<Object> get props => [];
 }
 class AuthenticationStateInitial extends AuthenticationState{}
-class AuthentucationStateSuccess extends AuthenticationState{
+class AuthenticationStateSuccess extends AuthenticationState{
   final FirebaseUser firebaseUser;
-  const AuthentucationStateSuccess({this.firebaseUser});
+  const AuthenticationStateSuccess({this.firebaseUser});
   @override
   // TODO: implement props
   List<Object> get props => [firebaseUser];
@@ -20,4 +20,4 @@ class AuthentucationStateSuccess extends AuthenticationState{
     return 'AuthenticationStateSuccess, email: ${firebaseUser.email}';
   }
 }
-class AuthenticationStateFail extends AuthenticationState{}
+class AuthenticationStateFailure extends AuthenticationState{}

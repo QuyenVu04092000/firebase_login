@@ -5,17 +5,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d5f1c847-1a18-4352-9dec-292cf4fa4447" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/lib/blocs/authentication_bloc.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/blocs/login_bloc.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/blocs/register_bloc.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/blocs/simple_bloc_observer.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/pages/buttons/google_login_button.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/pages/buttons/login_button.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/pages/buttons/register_button.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/pages/buttons/register_user_button.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/pages/home_page.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/pages/login_page.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/pages/register_page.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/pages/splash_page.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.flutter-plugins-dependencies" beforeDir="false" afterPath="$PROJECT_DIR$/.flutter-plugins-dependencies" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Dart_Packages.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/events/login_event.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/events/login_event.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/android/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/android/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/android/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/app/google-services.json" beforeDir="false" afterPath="$PROJECT_DIR$/android/app/google-services.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/main.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/repositories/user_repository.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/repositories/user_repository.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/states/authentication_state.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/states/authentication_state.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/states/login_state.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/states/login_state.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/states/register_state.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/states/register_state.dart" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,6 +57,7 @@
     <property name="RunOnceActivity.cidr.known.project.marker" value="true" />
     <property name="cidr.known.project.marker" value="true" />
     <property name="dart.analysis.tool.window.force.activate" value="true" />
+    <property name="dart.analysis.tool.window.visible" value="false" />
     <property name="io.flutter.reload.alreadyRun" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="show.migrate.to.gradle.popup" value="false" />
